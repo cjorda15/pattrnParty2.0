@@ -116,7 +116,7 @@ header div{
   font-size: 18px;
 }
 
-.accordion-title{
+.example-title{
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -124,14 +124,14 @@ header div{
   margin: 15px auto;
 }
 
-.accordion-title h6{
-  font-size: 20px;
+.example-title h6{
+  font-size: 17px;
   font-family: 'Open Sans', sans-serif;
   width: 210px;
 
 }
 
-.accordion-title span{
+.example-title span{
   background: #D1D2D3;
   height: 2px;
   width: 80%;
@@ -139,6 +139,7 @@ header div{
 
 .tab-active{
   background: #fff;
+  font-size: 18px;
 }
 
 .tab-inactive{
@@ -160,16 +161,17 @@ header div{
   padding: 10px;
 }
 
-.accordion-title{
+.example-title{
   flex-direction: column;
 }
 
-.accordion-title h6{
+.example-title h6{
+  font-size:25px;
   text-align: center;
 }
 
-.accordion-title span{
-    width: 180px;
+.example-title span{
+    width: 205px;
 }
 
 #accordion-tabs-container{
